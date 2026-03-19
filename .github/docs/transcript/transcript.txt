@@ -1,0 +1,219 @@
+WEBVTT
+
+00:00.000 --> 00:10.500
+I want to share an idea for a web application designed specifically for Relationship Managers, especially those handling Ultra High Net Worth clients.
+
+00:10.500 --> 00:20.000
+The core purpose of this application is to help Relationship Managers identify early liquidity signals before they become obvious in the market.
+
+00:20.000 --> 00:31.000
+These liquidity signals can come from multiple systems and data points, such as margin-related changes, corporate actions, acquisitions, or early exit indicators.
+
+00:31.000 --> 00:41.500
+The key value here is timing. If we can detect liquidity changes early, Relationship Managers gain a strong first-mover advantage.
+
+00:41.500 --> 00:53.000
+Once these signals are identified, the system enables proactive and more personal engagement with clients.
+
+00:53.000 --> 01:05.000
+Instead of reacting late, Relationship Managers can reach out early to understand context and initiate meaningful conversations around investments or asset movement.
+
+01:05.000 --> 01:16.000
+On top of this, we introduce lead scoring based on the strength and relevance of each liquidity signal.
+
+01:16.000 --> 01:26.000
+This helps Relationship Managers prioritize the right clients, decide when to engage, and understand why an action is recommended.
+
+01:26.000 --> 01:37.000
+Liquidity events can be detected from multiple sources including private company databases, promoter information, and public domain disclosures.
+
+01:37.000 --> 01:48.000
+Examples include platforms like PrivateCircle, Zauba, and IPO-related data from exchange and market intelligence sources.
+
+01:48.000 --> 02:00.000
+The idea is to aggregate insights from multiple reliable sources rather than relying on a single dataset.
+
+02:00.000 --> 02:13.000
+Instead of storing this data in a traditional relational database, we propose using a graph database.
+
+02:13.000 --> 02:25.000
+A graph database allows us to map relationships between individuals, companies, sectors, and liquidity events.
+
+02:25.000 --> 02:36.000
+Every trigger or data change can be traced to understand its impact across companies and specific individuals.
+
+02:36.000 --> 02:48.000
+From a user experience perspective, the web application should remain simple and intuitive for Relationship Managers.
+
+02:48.000 --> 03:00.000
+The main panel can display filters such as city, sector, network, and clusters, along with top prospects and suggested actions.
+
+03:00.000 --> 03:12.000
+A right-side panel can show key metrics, alerts, and clear explanations of why each prospect is relevant.
+
+03:12.000 --> 03:24.000
+The design should follow Kairos Capital’s branding guidelines to ensure familiarity and ease of adoption.
+
+03:24.000 --> 03:36.000
+If feasible, we can also introduce a live AI chatbot that allows Relationship Managers to query the graph database directly.
+
+03:36.000 --> 03:48.000
+This chatbot can answer questions like which clients may experience liquidity events in the next 30 days.
+
+03:48.000 --> 04:00.000
+A small dashboard can track how many leads and liquidity events are generated and followed up by Relationship Managers.
+
+04:00.000 --> 04:12.000
+The purpose of this data is not to replace relationships but to improve timing and provide better context for engagement.
+
+04:12.000 --> 04:24.000
+Lead scoring will always be explainable, showing the reasoning and signals behind each score.
+
+04:24.000 --> 04:36.000
+The overall experience should remain simple, transparent, and actionable for Relationship Managers.
+
+04:36.000 --> 04:48.000
+At this stage, the goal is to build a demo that showcases how the system works end to end.
+
+04:48.000 --> 05:00.000
+The demo will highlight a centralized intelligence layer aggregating IPO, VC, PE, promoter, and corporate data.
+
+05:00.000 --> 05:12.000
+It will also demonstrate how graph-based insights translate into real, practical actions for Relationship Managers.
+
+05:12.000 --> 05:20.000
+That is the overall idea behind this data platform. Thank you.
+
+
+[00:00.000 --> 00:06.080]  I guess where we say okay these are the key numbers and when we click on the second page
+[00:06.080 --> 00:10.720]  the second page brings up what silver manakshaka presented which is a very detailed level
+[00:10.720 --> 00:15.360]  list so I leave that for you guys again I don't have any more comments for now that
+[00:15.360 --> 00:17.280]  treat us me yeah
+[00:21.040 --> 00:27.680]  so the EU point you have mentioned are she shan do you know for I was checking my
+[00:27.680 --> 00:32.960]  comments from the moment I just heard from whatever I said everybody could hear it right
+[00:32.960 --> 00:37.920]  yep or you know okay it didn't make sense okay sorry I thought I was talking to myself
+[00:37.920 --> 00:44.560]  in the top processes last okay back to you listening to my questions yes so I was going through
+[00:44.560 --> 00:53.680]  our notes from that meeting with Amit the other day and with Shivam's mock up also and
+[00:53.680 --> 00:59.680]  Mahesh is also if we think from the I mean let's take RM's completely out of the picture right now
+[00:59.680 --> 01:05.520]  what up whatever they are doing how so ever they are doing we have to look at it from if I'm
+[01:05.520 --> 01:10.800]  a managing partner for this and I open this you already got the AUM point that was one thing that I
+[01:10.800 --> 01:18.720]  wanted but more than that like his one office big concern was that if some liquidity event is
+[01:18.720 --> 01:24.400]  happening we are not reaching there on time and all that now we we have limited knowledge about
+[01:24.400 --> 01:30.560]  what liquidity events can happen these guys have and we can use that from them and put it in here
+[01:30.560 --> 01:36.640]  but I would want to see that you know I would as a managing partner I would want to see all that
+[01:36.640 --> 01:44.800]  information because what I mean after RM's of course the lead and all is important but from
+[01:44.800 --> 01:53.200]  his point of view is is there a way Mahesh we can kind of yeah to add liquidity event which we have
+[01:53.200 --> 01:59.760]  which I have already fight right yes I mean it should it should be two way it should be two way
+[01:59.760 --> 02:06.880]  and there was also one more thing I don't know if it makes sense but I'll put it out anyways
+[02:06.880 --> 02:12.720]  he told us that he has a list of people which he already knows have money and all that you know
+[02:12.800 --> 02:20.000]  and he told us how easily that list is available and then the RM I spoke to told me that they refer
+[02:20.000 --> 02:26.240]  news channels like you know every time to find out if any of them are in the news and anything
+[02:26.240 --> 02:32.720]  so what if we we also get that list and just you know filter news what we know bloomberg's and all
+[02:32.720 --> 02:39.200]  that I mean just something that okay if some of these top thousand of who's in the lead right now
+[02:39.840 --> 02:45.920]  yeah I have no idea what he was talking about okay I I don't know like whether you can get
+[02:45.920 --> 02:52.640]  the notification on yeah I know I mean that data will not be difficult Mahesh you know to get
+[02:52.640 --> 02:59.520]  how many people are more than 100 CR or so I'm sure we can get it without going to Delhi as well
+[02:59.520 --> 03:05.680]  but what I'm trying to say is that if he is eyeing a certain type of people and is that that
+[03:06.640 --> 03:13.760]  inform any information about them means a lot to him and his team we should be we should be doing
+[03:13.760 --> 03:19.040]  something to get that information because now we are making his work easier all his guys are doing
+[03:19.040 --> 03:24.960]  is I mean just watching news all the time and you know whatever setting up alerts and all we can do
+[03:24.960 --> 03:32.880]  it better so I can hear two I can hear three things okay please can I and can RM add
+[03:33.680 --> 03:40.560]  liquidity even the possible yes we can do that we can have that feature do second
+[03:41.760 --> 03:49.520]  is it possible to have APIs of all the all the news alerts which are happening based on the
+[03:49.520 --> 03:55.200]  based on the prospects what I have like for example I can see Rajesh Kumar is in my first
+[03:55.200 --> 04:00.560]  account a little bit if Rajesh Kumar name is anywhere in the in the medium can I capture that yes
+[04:00.560 --> 04:06.160]  that's what suppose I can have an API of which channel which can do that third you may have a
+[04:06.160 --> 04:13.200]  predefined list of all the ultra high network people possible if I have that list you can
+[04:13.200 --> 04:20.800]  have the benefit that is very easy actually that should be the baseline right not should be that
+[04:20.800 --> 04:27.200]  this should be my baseline of the age program like we will have 100 that there are 100 people
+[04:27.200 --> 04:33.360]  are 100 crore plus because that's a target audience right so we will not come to this
+[04:33.360 --> 04:40.320]  quarterly I think that's what it doesn't give us specific number you know if you remember he gave
+[04:40.320 --> 04:49.280]  us specific number 4400 people have more than this more than 4400 I was going to create a more
+[04:49.280 --> 04:59.920]  bit of it I don't know whether we can get it or not so if any if anybody can have sure you think
+[04:59.920 --> 05:10.000]  you can remember I think you guys are right but I'm not sure because a lot of high net
+[05:10.000 --> 05:14.960]  high network people they don't want to disclose their networks as well so I don't think it will be
+[05:14.960 --> 05:20.880]  publicly available data set anywhere no actually not that in that also basically
+[05:20.880 --> 05:29.600]  amit who is the director of the Wama he said that it is my very easy to be sure my she's sure
+[05:30.720 --> 05:42.640]  oh sure my sorry sorry yeah so he think it's available there is a available like he was talking
+[05:42.640 --> 05:47.680]  about CDs being available at Palika and all you know he said the data is so freely available
+[05:48.320 --> 05:53.440]  of course we don't need it so we none of us would have ever tried to get our hands on a data like
+[05:53.440 --> 06:03.040]  that but this is what Amit told us so it's funny actually I'm just expecting a
+[06:03.120 --> 06:14.320]  a bit of waste of 100 crore plus 4000 people I mean okay so let's make a markup let's make a markup
+[06:16.560 --> 06:24.960]  I'm sure it's happening that's a great idea and so each of the clients which we show basically
+[06:24.960 --> 06:32.400]  make and list is given us a number 4400 so let's use 4400 the baseline it will be and
+[06:32.400 --> 06:37.680]  100 crore plus each customer and then we populate this right
+[06:41.840 --> 06:47.520]  there are some providers I was just searching but their API is chargeable
+[06:48.000 --> 06:55.840]  so probably down the line then we are still able that they can provide that exactly yeah right now
+[06:55.840 --> 07:02.800]  Shibham it's all about us showing this is what we believe it should be for you and then we agree with
+[07:02.800 --> 07:10.240]  the field for us then we ask them this is the charges which is going to come yeah in terms of data
+[07:10.240 --> 07:15.520]  I think it's best to rely on if they have these sources already available we can ask them for data
+[07:15.520 --> 07:19.280]  but we can for now just go ahead with the mock data like my A7
+[07:21.120 --> 07:26.320]  yes for the mockup we'll go for the mock data only and then we should I mean we'll try to get
+[07:26.320 --> 07:31.280]  this data from them and any other sources they have because then we'll be creating something that
+[07:32.080 --> 07:40.960]  makes sense but so I mean I really like the first range to be what my A7 shared but we need to add
+[07:41.680 --> 07:47.440]  because it looks less cluttered guys I mean if I have to look at it you know it's like on the
+[07:47.440 --> 07:52.960]  new there should be okay my imagination is basically we're creating a new space with the top
+[07:52.960 --> 07:58.880]  headlines on the top right which is what they're creating and then we have the ones which are
+[07:58.880 --> 08:04.560]  once we pick from there we go on to the level which Shibham and Akshetar and then they talk about
+[08:04.560 --> 08:11.280]  the same key lenders but with the RM details and some other things now goes you know charts and
+[08:11.280 --> 08:16.240]  graphs and everything right would you agree with me and please feel free to the day time okay to
+[08:16.240 --> 08:25.440]  be said long but yeah fine I think that the straightforward approach and makes sense
+[08:25.440 --> 08:37.360]  if you leave us my hands I think it is I think it's not on the call yeah he's not on the call I
+[08:37.360 --> 08:44.560]  think because his screen is also gone okay you have some questions is actually there's no
+[08:44.560 --> 08:49.520]  much of any other questions you have please feel free to share because I'm happy we have something
+[08:49.600 --> 08:58.400]  already you just say something so much you know you do like otherwise showing people you wouldn't have
+[08:58.400 --> 09:04.560]  so we need to we need to get this I mean this is a trust me this is a very very important line
+[09:04.560 --> 09:13.920]  can be we can crack this right yeah so as soon as we have some sort of mock data probably we can
+[09:13.920 --> 09:21.920]  start experimenting with that okay so you you can what sort of mock data you need okay and then
+[09:21.920 --> 09:28.880]  we start experimenting you don't wait put it out but what you need to build this up so do you okay
+[09:28.880 --> 09:36.640]  can I see you screen again the one way you should that mock up yeah yeah okay so everybody all
+[09:36.640 --> 09:43.520]  of the items you put on that screen has to say 100CR plus that's one okay I'll give you some
+[09:43.520 --> 09:50.000]  pointers right now which we have to stick everybody has to be 100CR plus number two we have the
+[09:50.000 --> 09:57.680]  total of 30 to 35 RMs so you know whatever we create we create a very close to those realistic
+[09:57.680 --> 10:04.080]  numbers right then the number of clients in total which is the total addressable market
+[10:04.080 --> 10:13.600]  plays around 4,000 to 100 people which is it's about right number four I think you also mentioned
+[10:13.600 --> 10:20.640]  right you mentioned that the did you mention anything on the meat time to closure for any of this
+[10:21.440 --> 10:30.320]  no I don't remember the time to close yeah okay okay sorry mention about you so those are the
+[10:30.320 --> 10:37.120]  points you know I want to do whatever okay so what the first page but of course the first
+[10:37.120 --> 10:46.000]  which is the yeah we can actually work out it yet yeah so my ancient shivam are you going to I mean
+[10:46.480 --> 10:52.800]  how are both of you going to work on this one because I need to see a date why when we can you know
+[10:53.680 --> 11:00.880]  habit I said I'll share the rapport with you I'm sure um I can also support you right there let's
+[11:00.880 --> 11:08.880]  touch up tomorrow okay let's let's let's let's let's climb down the first thing is data I think
+[11:08.880 --> 11:17.520]  we'll need to do the data we do the sum to set up a interrupt and then we can yeah so do we have
+[11:17.520 --> 11:26.000]  any cloud cloud uh credits or something like that I should yeah I have some google cloud
+[11:26.000 --> 11:36.480]  credits that you want I can select you know yeah yeah yeah absolutely so so so so the solution
+[11:36.480 --> 11:43.120]  which I'm also sorry get great point that brought me up so what we are building guys is both for
+[11:43.120 --> 11:50.960]  compromises and cloud right when actually we probably want to sell this also too the government
+[11:50.960 --> 11:58.240]  side entities also in future so whatever approach we take care we have to keep in the factor that
+[11:58.240 --> 12:04.160]  it is both ways right right now it's not one one if it is cloud it is going to you know if it can be
+[12:04.160 --> 12:10.960]  always come on to my hand so that's yeah yeah yeah so if we get this we can offer if they could
+[12:11.040 --> 12:17.280]  it anywhere anytime good and then while you were going we were just saying we talked about this
+[12:17.280 --> 12:23.760]  that your page first page is something which we would like to see first because it's less
+[12:23.760 --> 12:29.040] 辣tled and it just shows the managing partners that what are the key key pairs how they're
+[12:29.040 --> 12:34.160]  looking like or friendly with the sum graphs around it and then he clicks on that and then he gets
+[12:34.160 --> 12:40.800]  down to this page which is what she will not share and we you know completely details over there
+[12:40.800 --> 12:45.200]  so on the first page it's an app right so on the first page it's an app right there
+[12:45.200 --> 12:53.840]  there's something like that so yeah okay good all right thanks again this may be anything from
+[12:53.840 --> 13:00.960]  you I'm good to move from now happy no so we'll connect again tomorrow just to see you know what
+
+Page 1 highlights:
+•⁠  ⁠Firm-wide AUM, growth rates & attrition 
+•⁠  ⁠Liquidity event signals (30-90 day triggers)
+•⁠  ⁠Wallet share analysis for high-value clients
+•⁠  ⁠Revenue growth tracking linked to product mix
+•⁠  ⁠Alternate penetration % across client segments
+•⁠  ⁠Credit/capital solutions visibility
+•⁠  ⁠Conversion rates with churn risk scoring
+
+Page 2 additions:
+•⁠  ⁠Key trending graphs with AI-driven insights
+•⁠  ⁠TAM-linked news feed (client-specific, not generic)
+•⁠  ⁠AI chatbot for queries in multiple languages
+•⁠  ⁠Kairos Capital influencer mapping (visual network)
+•⁠  ⁠Voice notes auto-mapping to conversations
+
+A few additional elements I believe we should incorporate:
+•⁠  ⁠Client retention/attrition metrics dashboard
+•⁠  ⁠RM productivity scorecard (calls, conversions, response times)
+•⁠  ⁠Risk concentration alerts (portfolio & regulatory)
+•⁠  ⁠Cross-sell opportunity tracker

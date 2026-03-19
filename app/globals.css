@@ -1,26 +1,90 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Material Design 3 — Surface tokens */
+  --md-surface: #faf8ff;
+  --md-surface-container-low: #f2f3ff;
+  --md-surface-container-lowest: #ffffff;
+  --md-surface-container: #ecedf4;
+  --md-surface-container-high: #e2e7ff;
+  --md-surface-container-highest: #dae2fd;
+
+  /* Primary / Secondary */
+  --md-secondary: #0058be;
+  --md-secondary-container: #2170e4;
+  --md-primary-container: #131b2e;
+
+  /* Text */
+  --md-on-surface: #131b2e;
+  --md-on-surface-variant: #45464d;
+  --md-on-primary-container: #7c839b;
+
+  /* Tertiary (green accent) */
+  --md-tertiary-fixed: #6ffbbe;
+  --md-tertiary-fixed-dim: #4edea3;
+  --md-on-tertiary-container: #009668;
+  --md-tertiary-container: #002113;
+
+  /* Error */
+  --md-error: #ba1a1a;
+
+  /* Borders */
+  --md-outline-variant: #c6c6cd;
+
+  /* Semantic */
+  --success: #009668;
+  --warning: #f59e0b;
+  --error: #ba1a1a;
+
+  /* Typography */
+  --font-headline: 'Manrope', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  --background: var(--md-surface);
+  --foreground: var(--md-on-surface);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Surface palette */
+  --color-surface: var(--md-surface);
+  --color-surface-container-low: var(--md-surface-container-low);
+  --color-surface-container-lowest: var(--md-surface-container-lowest);
+  --color-surface-container: var(--md-surface-container);
+  --color-surface-container-high: var(--md-surface-container-high);
+  --color-surface-container-highest: var(--md-surface-container-highest);
+
+  /* Brand */
+  --color-secondary: var(--md-secondary);
+  --color-secondary-container: var(--md-secondary-container);
+  --color-primary-container: var(--md-primary-container);
+
+  /* Text */
+  --color-on-surface: var(--md-on-surface);
+  --color-on-surface-variant: var(--md-on-surface-variant);
+  --color-on-primary-container: var(--md-on-primary-container);
+
+  /* Tertiary */
+  --color-tertiary-fixed: var(--md-tertiary-fixed);
+  --color-tertiary-fixed-dim: var(--md-tertiary-fixed-dim);
+  --color-on-tertiary-container: var(--md-on-tertiary-container);
+  --color-tertiary-container: var(--md-tertiary-container);
+
+  /* Semantic */
+  --color-error: var(--md-error);
+  --color-outline-variant: var(--md-outline-variant);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+
+  /* Fonts */
+  --font-sans: var(--font-body);
+  --font-headline: var(--font-headline);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
 }
